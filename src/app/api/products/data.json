@@ -1,0 +1,49 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Moletom Cinza",
+      "slug": "moletom-cinza",
+      "price": 129,
+      "image": "/casaco.png",
+      "description": "Moletom fabricado com 100% de algodão.",
+      "featured": true
+    },
+    {
+      "id": 2,
+      "title": "Camisa Hightech Azul",
+      "slug": "camisa-hightech-azul",
+      "price": 69,
+      "image": "/camisa1.png",
+      "description": "Camiseta fabricada com 100% de algodão.",
+      "featured": true
+    },
+    {
+      "id": 3,
+      "title": "Camisa Hightech Cinza",
+      "slug": "camisa-hightech-cinza",
+      "price": 69,
+      "image": "/camisa2.png",
+      "description": "Camiseta fabricada com 100% de algodão.",
+      "featured": true
+    },
+    {
+      "id": 4,
+      "title": "Camisa Hightech Branco",
+      "slug": "camisa-hightech-branco",
+      "price": 69,
+      "image": "/camisa3.png",
+      "description": "Camiseta fabricada com 100% de algodão.",
+      "featured": false
+    },
+    {
+      "id": 5,
+      "title": "Camisa Hightech Roxo",
+      "slug": "camisa-hightech-roxo",
+      "price": 69,
+      "image": "/camisa4.png",
+      "description": "Camiseta fabricada com 100% de algodão.",
+      "featured": false
+    }
+  ]
+}
