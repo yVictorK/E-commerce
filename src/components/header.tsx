@@ -9,8 +9,8 @@ export default function Header() {
 
 
   return (
-    <div className="flex flex-2 items-start sm:items-center justify-between">
-      <div className="flex flex-col sm:flex-row sm:items-center gap-5">
+    <div className="flex flex-2 items-start sm:items-center justify-between gap-4">
+      <div className="flex flex-col sm:flex-row sm:items-center gap-5 w-full max-w-[640px]">
         <Link
           href="/"
           className="text-md md:text-2xl font-extrabold text-white"

@@ -45,8 +45,8 @@ export default async function ProductPage({ params }: ProductProps) {
   const product = await getProduct(params.slug)
 
   return (
-    <div className="relative grid max-h-[860px] grid-cols-3">
-      <div className="col-span-2 overflow-hidden">
+    <div className="relative grid max-h-[860px] grid-cols-3 gap-6">
+      <div className="col-span-3 sm:col-span-2 overflow-hidden">
         <Image
           src={product.image}
           width={1000}
@@ -56,7 +56,7 @@ export default async function ProductPage({ params }: ProductProps) {
         />
       </div>
 
-      <div className="flex flex-col justify-center px-12">
+      <div className="flex col-span-3 sm:col-span-1 flex-col justify-center px-12">
         <h1 className="text-3xl font-bold leading-tight">
           {product.title}
         </h1>
